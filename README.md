@@ -4,12 +4,16 @@
 ```python
 flatpak install flathub tv.kodi.Kodi
 ```
-2. Para ter acesso as pasta Downloads e a do Documentos ou outras pasta só digitar esse comando:
+2. Se você deseja conceder ao aplicativo Flatpak acesso às pastas Downloads e Documentos, basta digitar os comandos abaixo:
 ```python
 flatpak override --user --filesystem=~/Downloads tv.kodi.Kodi
 ```
 ```python
 flatpak override --user --filesystem=~/Documentos tv.kodi.Kodi
+```
+```python
+3. Se você quiser liberar acesso a todo o sistema de arquivos (o que deve ser feito com cuidado), pode usar:
+flatpak override --user --filesystem=host tv.kodi.Kodi
 ```
 add-ons F4mtester
 [[plugin.video.f4mTester-4.1.4.zip]](https://github.com/gloriosotv/Kodi-Linux/raw/refs/heads/main/plugin.video.f4mTester-4.1.4.zip)

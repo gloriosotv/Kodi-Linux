@@ -11,8 +11,8 @@ flatpak override --user --filesystem=~/Downloads tv.kodi.Kodi
 ```python
 flatpak override --user --filesystem=~/Documentos tv.kodi.Kodi
 ```
-```python
 3. Se você quiser liberar acesso a todo o sistema de arquivos (o que deve ser feito com cuidado), pode usar:
+```python
 flatpak override --user --filesystem=host tv.kodi.Kodi
 ```
 add-ons F4mtester

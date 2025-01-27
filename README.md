@@ -4,7 +4,7 @@
 ```python
 flatpak install flathub tv.kodi.Kodi
 ```
-3. Para ter acesso as pasta Downloads e a do Documentos ou outras pasta só digitar esse comando:
+2. Para ter acesso as pasta Downloads e a do Documentos ou outras pasta só digitar esse comando:
 ```python
 flatpak override --user --filesystem=~/Downloads tv.kodi.Kodi
 ```

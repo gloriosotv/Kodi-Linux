@@ -14,6 +14,4 @@ flatpak override --user --filesystem=~/Documentos tv.kodi.Kodi
 3. Se você quiser liberar acesso a todo o sistema de arquivos (o que deve ser feito com cuidado), pode usar:
 ```python
 flatpak override --user --filesystem=host tv.kodi.Kodi
-```
-add-ons F4mtester
-[[plugin.video.f4mTester-4.1.4.zip]](https://github.com/gloriosotv/Kodi-Linux/raw/refs/heads/main/plugin.video.f4mTester-4.1.4.zip)
+`````

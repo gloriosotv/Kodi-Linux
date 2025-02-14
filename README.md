@@ -15,9 +15,7 @@ flatpak override --user --filesystem=~/Documentos tv.kodi.Kodi
 ```python
 flatpak override --user --filesystem=host tv.kodi.Kodi
 `````
-![image](https://github.com/user-attachments/assets/97334ff8-7fa5-4e8f-a6eb-e9a0dd59b325)
-
-(Configuração de Download e Armazenamento no Elementum)
+Primeira imagem (Configuração de Download e Armazenamento no Elementum)
 
     "Store N torrents in history" (50) → Mantém um histórico de até 50 torrents recentes.
     "Download after play was stopped" (Stop) → Quando a reprodução para, o download do torrent também é interrompido.
@@ -26,9 +24,9 @@ flatpak override --user --filesystem=host tv.kodi.Kodi
 
 🔹 Efeito: As configurações ajudam a economizar espaço no disco, excluindo arquivos automaticamente.
 
-![image](https://github.com/user-attachments/assets/e8849fde-2f53-4072-bfed-6136030ced17)
+![image](https://github.com/user-attachments/assets/97334ff8-7fa5-4e8f-a6eb-e9a0dd59b325)
 
-(Configuração de Buffer no Elementum)
+Segunda imagem (Configuração de Buffer no Elementum)
 
     "Beginning of file Buffer size, MB" (150 MB) → Define quanto do arquivo será armazenado em buffer antes de começar a reprodução.
     "End of file Buffer size, MB" (20 MB) → Define quanto será mantido em buffer no final do arquivo.
@@ -36,3 +34,5 @@ flatpak override --user --filesystem=host tv.kodi.Kodi
     "Limite de tempo para carregamento (segundos)" (60s) → Tempo máximo de espera para carregar um torrent antes de desistir.
 
 🔹 Efeito: Aumentar o buffer pode evitar travamentos, especialmente em conexões mais lentas ou instáveis.
+
+![image](https://github.com/user-attachments/assets/e8849fde-2f53-4072-bfed-6136030ced17)

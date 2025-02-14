@@ -15,3 +15,24 @@ flatpak override --user --filesystem=~/Documentos tv.kodi.Kodi
 ```python
 flatpak override --user --filesystem=host tv.kodi.Kodi
 `````
+![image](https://github.com/user-attachments/assets/97334ff8-7fa5-4e8f-a6eb-e9a0dd59b325)
+
+(Configuração de Download e Armazenamento no Elementum)
+
+    "Store N torrents in history" (50) → Mantém um histórico de até 50 torrents recentes.
+    "Download after play was stopped" (Stop) → Quando a reprodução para, o download do torrent também é interrompido.
+    "Keep files for not finished video" (Delete) → Apaga automaticamente arquivos de vídeos não assistidos até o fim.
+    "Keep files for watched/downloaded video" (Delete) → Apaga arquivos de vídeos que já foram assistidos ou baixados.
+
+🔹 Efeito: As configurações ajudam a economizar espaço no disco, excluindo arquivos automaticamente.
+
+![image](https://github.com/user-attachments/assets/e8849fde-2f53-4072-bfed-6136030ced17)
+
+(Configuração de Buffer no Elementum)
+
+    "Beginning of file Buffer size, MB" (150 MB) → Define quanto do arquivo será armazenado em buffer antes de começar a reprodução.
+    "End of file Buffer size, MB" (20 MB) → Define quanto será mantido em buffer no final do arquivo.
+    "Adjust buffer according to Kodi advancedsettings.xml, if set" → Se ativado, o Elementum usa as configurações avançadas do Kodi para ajuste de buffer.
+    "Limite de tempo para carregamento (segundos)" (60s) → Tempo máximo de espera para carregar um torrent antes de desistir.
+
+🔹 Efeito: Aumentar o buffer pode evitar travamentos, especialmente em conexões mais lentas ou instáveis.

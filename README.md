@@ -36,3 +36,6 @@ Segunda imagem (Configuração de Buffer no Elementum)
 🔹 Efeito: Aumentar o buffer pode evitar travamentos, especialmente em conexões mais lentas ou instáveis.
 
 ![image](https://github.com/user-attachments/assets/e8849fde-2f53-4072-bfed-6136030ced17)
+
+instalar o elementum para o seu sistema entrar no link abaixo e baixe para o seu linux
+https://elementumorg.github.io/

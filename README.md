@@ -42,4 +42,4 @@ https://elementumorg.github.io/
 
 Como Configurar o Kodi assiste o video todo mais na parte de ajustar atualização de tela deixa em sempre creio que ficará melhor !!!
 
-[![Assistir ao vídeo](https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](https://raw.githubusercontent.com/gloriosotv/Kodi-Linux/refs/heads/main/index.html)
+[![Assistir ao vídeo](https://i.imgur.com/Q2ME5He.png)](https://raw.githubusercontent.com/gloriosotv/Kodi-Linux/refs/heads/main/index.html)

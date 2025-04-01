@@ -11,9 +11,9 @@ flatpak override --user --filesystem=~/Downloads tv.kodi.Kodi
 ```python
 flatpak override --user --filesystem=~/Documentos tv.kodi.Kodi
 ```
-3. Se você quiser liberar acesso a todo o sistema de arquivos (o que deve ser feito com cuidado), pode usar:
+3. Esse comando garante que o Kodi rodando via Flatpak tenha acesso ao hardware gráfico, áudio, servidor gráfico (X11 ou Wayland) e comunicação com o sistema via D-Bus
 ```python
-flatpak override --user --filesystem=host tv.kodi.Kodi
+flatpak override --user --filesystem=/dev/dri --device=all --socket=wayland --socket=x11 --socket=pulseaudio --socket=system-bus --socket=session-bus tv.kodi.Kodi
 `````
 Primeira imagem (Configuração de Download e Armazenamento no Elementum)
 

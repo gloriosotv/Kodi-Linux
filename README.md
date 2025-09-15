@@ -3,7 +3,6 @@
 PPA para instalar o pacote Deb do Kodi 21.2 no Ubuntu 24.04
 
 1. Primeiro, pressione Ctrl+Alt+To teclado para abrir uma janela de terminal. Quando ela abrir, execute o comando para adicionar o PPA:
-2. 
 ```python
 sudo add-apt-repository ppa:ubuntuhandbook1/kodi
 ```

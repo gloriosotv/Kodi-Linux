@@ -1,5 +1,23 @@
 # Kodi-Linux
 
+PPA para instalar o pacote Deb do Kodi 21.2 no Ubuntu 24.04
+
+1. Primeiro, pressione Ctrl+Alt+To teclado para abrir uma janela de terminal. Quando ela abrir, execute o comando para adicionar o PPA:
+2. 
+```python
+sudo add-apt-repository ppa:ubuntuhandbook1/kodi
+```
+2. Se você estiver seguindo este tutorial no Linux Mint, você pode executar o comando abaixo para atualizar o cache:
+```python
+sudo apt update
+```
+3. Por fim, instale o Kodi via comando:
+```python
+sudo apt install kodi kodi-inputstream-adaptive kodi-inputstream-ffmpegdirect kodi-inputstream-rtmp
+```
+
+instalar pelo flatpak Kodi 21.2
+
 1. Primeiro, pressione Ctrl+Alt+T no teclado para abrir o terminal. Em seguida, use o comando abaixo para instalar o Kodi.
 ```python
 flatpak install flathub tv.kodi.Kodi

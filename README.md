@@ -57,6 +57,6 @@ Limite de tempo para carregamento (segundos)" (60s) → Tempo máximo de espera 
 instalar o elementum para o seu sistema entrar no link abaixo e baixe para o seu linux
 https://elementumorg.github.io/
 
-Como Configurar o Kodi assiste o video todo mais na parte de ajustar atualização de tela deixa em sempre creio que ficará melhor clica na imagem para assistir o video !!!
+Como Configurar o Kodi assiste o video todo clica na imagem para assistir o video !!!
 
 [![Assistir ao vídeo](https://i.imgur.com/Q2ME5He.png)](https://gloriosotv.github.io/Kodi-Linux/index.html)
